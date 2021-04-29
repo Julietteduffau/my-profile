@@ -1,0 +1,85 @@
+@import url("css/components/container.css");
+
+@import url("css/components/button.css");
+
+body {
+	font-family: "lato", sans-serif;
+	color: rgb(50, 50, 50);
+	font-size: 17px;
+	margin: auto;
+	text-align: center;
+}
+
+.box {
+	border-spacing: 20px;
+	border: 5px solid white;
+	padding: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+}
+
+h1 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 200;
+	letter-spacing: 5px;
+	font-size: 32px;
+}
+
+h2 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	color: #4bb3b6;
+}
+
+h3 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #9ae0e1;
+}
+
+h4 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #c89c7d;
+}
+
+.btn-blue {
+	background: #79c6c8;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin: auto;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.follow-me i {
+	font-size: 50px;
+	color: #c89c7d;
+}
+
+#image {
+	width: 200px;
+	height: 300px;
+	border: 5px solid #79c6c8;
+	border-radius: 5px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+}
